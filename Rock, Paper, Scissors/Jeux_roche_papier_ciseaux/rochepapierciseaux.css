@@ -1,0 +1,115 @@
+
+* {
+    background-color: rgb(202, 244, 255);
+}
+
+
+.Boutons {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer
+}
+
+.Boutons:hover {
+    background-color: rgb(116, 116, 113);
+    transition: 0.5s;
+}
+
+#Tableau, th, td {
+    border: 0.2cm solid black;
+    margin-top: 580px; 
+}
+
+#Tableau {
+  position: fixed;
+  margin-top: 600px;
+}
+
+.Joueurs {
+    font-weight: bold;
+}
+
+#BoutonReset:hover {
+    background-color:rgb(116, 116, 113);
+    transition: 0.2s;
+}
+
+#BoutonReset {
+    background-color:rgb(255, 255, 255);
+    cursor: pointer
+}
+
+.Boutons {
+    font-size: 15px;
+    height: 40px;
+    width: 85px;
+    display: block;
+    float: right;
+    font-weight: bold;
+    margin-right: 10px;
+    border-width: 7px;
+    font-family: Georgia;
+}
+
+#BoutonReset {
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    display:block;
+    float: right; 
+    font-weight: bold;
+    margin-top: 553px;
+    margin-right: 1110px;
+    border-width: 7px;
+    position: fixed;   
+    font-family: Georgia; 
+}
+
+#countdown {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+#TextInfo {
+    position: fixed;
+    margin-top: 55px;
+    margin-left: 1200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Message de fin de manche*/ 
+#messageVictoire {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#messageDefaite {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#messageNulle {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#gameImageRock {
+    position: fixed;
+}

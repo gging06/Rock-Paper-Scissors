@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="rochepapierciseaux.css">
+</head>
+
+<body>
+
+  <img id="gameImageRock" src="roche.png" style="display: none;">
+  <img id="gameImageScissors" src="ciseaux.png" style="display: none;">
+  <img id="gameImagePaper" src="papier.png" style="display: none;">
+
+  
+
+    <button class="Boutons" onclick="startCountdown('rock')" type="button">Rock</button>
+    <button class="Boutons" onclick="startCountdown('scissors')" type="button">Scissors</button>
+    <button class="Boutons" onclick="startCountdown('paper')" type="button">Paper</button>
+    
+
+    <div id="messageVictoire"></div>
+    <div id="messageDefaite"></div>
+    <div id="messageNulle"></div>
+
+    <p id="TextInfo">*Click on what you want to play!*</p>
+
+    <button id="BoutonReset" onclick="action(4)" type="button">Reset Board</button>
+
+    <div id="countdown"></div>
+
+    <table id="Tableau">
+        <tr>
+            <th>Victory(s)</th>
+            <th>Lose(s)</th>
+            <th>Draw(s)</th>
+            <th>Player</th>
+        </tr>
+        <tr>
+            <td id="victoiresUtilisateur"></td>
+            <td id="defaitesUtilisateur"></td>
+            <td id="nullesUtilisateur"></td>
+            <td class="Joueurs">User</td>
+        </tr>
+        <tr>
+            <td id="victoiresOrdinateur"></td>
+            <td id="defaitesOrdinateur"></td>
+            <td id="nullesOrdinateur"></td>
+            <td class="Joueurs">Computer</td>
+        </tr>
+    </table>
+
+    <script src="rochepapierciseaux.js"></script>
+</body>
+</html>
